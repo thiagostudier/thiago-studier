@@ -1,37 +1,19 @@
-# thiago-studier
-Thiago Studier | Site de apresentação
+# Escopo e objetivo
 
-COMANDOS: 
-- npm install -g vue-cli //INSTALAR VUE
-- vue init webpack social
-- - cd social
-- - npm run dev
+Projeto de portifólio/currículo para apresentar minhas habilidades, experiências, formação e etc.
 
-- npm run build //PARA COMPILAR CODIGO PARA PRODUÇÃO
-- php -S localhost:8000 //PARA RODAR A PASTA DIST EM UM SERVIDOR PHP
+O projeto inclui:
+(a) VueJs
 
-## Instalar laravel
-- composer create-project --prefer-dist laravel/laravel webservice "5.5.*"
+## Iniciando...
 
-### após o gitclone para trazer a pasta vendor
-- composer update
+- `git clone https://github.com/thiagostudier/thiago-studier.git`
+- `cd thiagostudier`
 
-### instalar laravel/passport
-- composer require laravel/passport
+### Instalar pacotes do node
 
-### migrate
-- php artisan migrate
+> _Objetivo: Necessário ter npm instalado
 
-### configurar passport no projeto
-- php artisan passport:install
-
-### adicionar no User.php:
-- use Laravel\Passport\HasApiTokens
-- use HasApiTokens, HasFactory, Notifiable;
-
-### no config/auth
-- 'driver' => 'passport' no api
-
-### install axios - dentro do frontend
-- npm install axios --save
-- import axios from 'axios' 
+- `npm update`
+- `npm run dev`
+- `npm run build`

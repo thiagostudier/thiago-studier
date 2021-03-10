@@ -1,19 +1,21 @@
-# Escopo e objetivo
+# thiagostudier
 
-Projeto de portifólio/currículo para apresentar minhas habilidades, experiências, formação e etc.
+> presentation
 
-O projeto inclui:
-(a) VueJs
+## Build Setup
 
-## Iniciando...
+``` bash
+# install dependencies
+npm install
 
-- `git clone https://github.com/thiagostudier/thiago-studier.git`
-- `cd thiagostudier`
+# serve with hot reload at localhost:8080
+npm run dev
 
-### Instalar pacotes do node
+# build for production with minification
+npm run build
 
-> _Objetivo: Necessário ter npm instalado
+# build for production and view the bundle analyzer report
+npm run build --report
+```
 
-- `npm update`
-- `npm run dev`
-- `npm run build`
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
