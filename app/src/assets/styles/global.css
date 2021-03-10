@@ -1,0 +1,101 @@
+body, html{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--background);
+    color: var(--text);
+    font-family: Roboto,sans-serif;
+    font-size: 18px;
+}
+
+div#app {
+    max-width: 100%;
+    margin: 0px auto;
+    /* overflow: hidden !important; */
+}
+
+input, textarea, button{
+    font: 400 1rem "Inter", sans-serif;
+}
+
+button{ 
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+:root{
+    --text: #666;
+    --color-white: #fff;
+    --color-dark: #848484;
+    --background-dark: #2b2b2b;
+    --background-dark-light: #c1c1c1;
+    --background: #ededef;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+@media(max-width: 1080px){
+    html{font-size: 93.75%;}
+}
+
+@media(max-width: 720px){
+    html{font-size: 87.5%;}
+}
+
+.title{
+    font-family: Roboto Mono,monospace;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    line-height: 42px;
+    font-weight: 400;
+}
+
+.subtitle{
+    font-family: Roboto Mono,monospace;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #999;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+/* INFO */
+
+.info{
+    margin-bottom: 20px;
+}
+
+.info-title{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Roboto Mono,monospace;
+    color: var(--color-white);
+    opacity: .4;
+    width: 100px;
+    display: inline-block;
+}
+
+.info-desc{
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Roboto Mono,monospace;
+    color: var(--color-white);
+}
