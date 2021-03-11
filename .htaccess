@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !app/dist/
+RewriteRule (.*) /app/dist/$1 [L]
