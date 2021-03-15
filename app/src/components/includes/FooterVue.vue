@@ -15,7 +15,7 @@ export default {
 <style scoped>
 
     footer{
-        padding: 40px 0px !important;
+        padding: 40px 20px !important;
         background: var(--background-dark);
     }
 

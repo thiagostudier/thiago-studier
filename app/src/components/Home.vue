@@ -3,7 +3,7 @@
         <!-- HEADER -->
         <header-vue>
             <span slot="image">
-                <img src="@/assets/perfil.jpg" />
+                <img src="@/assets/images/perfil.png" />
             </span>
             <span slot="principal">
                 <h2>Thiago Studier</h2>
@@ -36,14 +36,6 @@
                 </span>
             </span>
         </header-vue>
-        <!-- INTRODUÇÃO -->
-        <section-content>
-            <h2 class="title">Introdução</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quidem ab explicabo pariatur molestias facilis, et impedit suscipit doloremque dolor obcaecati soluta, necessitatibus quo architecto vitae animi accusantium voluptates fugit.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quidem ab explicabo pariatur molestias facilis, et impedit suscipit doloremque dolor obcaecati soluta, necessitatibus quo architecto vitae animi accusantium voluptates fugit.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quidem ab explicabo pariatur molestias facilis, et impedit suscipit doloremque dolor obcaecati soluta, necessitatibus quo architecto vitae animi accusantium voluptates fugit.</p>
-        </section-content>
-        <hr>
         <section-content>
             <h3 class="subtitle" style="margin-top: 0px;">Educação</h3>
             <timeline>
@@ -84,7 +76,7 @@
         <hr />
         <section-content>
             <h3 class="subtitle">Skills</h3>
-            <grid-items columns="7" columns_mobile="2">
+            <grid-items columns="7" columns_tablet="4" columns_mobile="2">
                 <skill-item>
                     <img src="@/assets/images/html-css-js.png" />
                     <span>HTML5, CSS3 e JS</span>
@@ -118,7 +110,7 @@
         <hr />
         <section-content>
             <h3 class="subtitle">Projetos</h3>
-            <grid-items columns="3" columns_mobile="1">
+            <grid-items columns="3" columns_tablet="2" columns_mobile="1">
                 <card-project>
                     <span slot="image"><img src="@/assets/images/sistema-de-selecao.png" /></span>
                     <span slot="title">Site | Thiago Studier</span>
@@ -249,14 +241,14 @@
                 </skill-item>
                 <skill-item>
                     <img src="@/assets/images/frances.png" />
-                    <span>Francês - Básico</span>
+                    <span>Francês - Em desenvolvimento</span>
                 </skill-item>
             </grid-items>
             <br />
             <timeline>
                 <span slot="university">English Live</span>
                 <span slot="date">desde 03/2021</span>
-                <span slot="course">Curso Básico de Inglês - Básico 4</span>
+                <span slot="course">Curso Básico de Inglês - Básico</span>
             </timeline>
             <timeline>
                 <span slot="university">Duoling</span>

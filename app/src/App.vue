@@ -6,7 +6,7 @@
 
 <script>
 
-import './assets/styles/global.css'
+import '@/assets/styles/global.css'
 
 export default {
   name: 'App'
