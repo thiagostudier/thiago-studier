@@ -136,10 +136,19 @@
                 </card-project>
                 <card-project>
                     <span slot="image"><img src="@/assets/images/sistema-de-selecao.png" /></span>
-                    <span slot="title">AdotaPets</span>
-                    <span slot="desc">Aplicação que permite que ONGs possam divulgar seus pets que estão para adoção.</span>
-                    <span slot="link"><a href="http://adotapets.com.br/" target="_blank" rel="noopener noreferrer">Visualizar projeto</a></span>
-                    <span slot="list">PHP, HTML, CSS, JS, Bootstrap, JS, MySQL</span>
+                    <span slot="title">Cronometro</span>
+                    <span slot="desc">Projeto de cronometro do <b>"Curso Vue Js do zero ao avançado na prática"</b> (Udemy)</span>
+                    <span slot="link"><a href="https://chronometer-app.vercel.app/" target="_blank" rel="noopener noreferrer">Visualizar projeto</a></span>
+                    <span slot="link-github"><a href="https://github.com/thiagostudier/chronometer-app" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></span>
+                    <span slot="list">VueJs, HTML, CSS</span>
+                </card-project>
+                <card-project>
+                    <span slot="image"><img src="@/assets/images/sistema-de-selecao.png" /></span>
+                    <span slot="title">Tasks (Minhas Tarefas)</span>
+                    <span slot="desc">Projeto Tasks do <b>"Curso Vue Js do zero ao avançado na prática"</b> (Udemy)</span>
+                    <span slot="link"><a href="https://app-tarefas.vercel.app/" target="_blank" rel="noopener noreferrer">Visualizar projeto</a></span>
+                    <span slot="link-github"><a href="https://github.com/thiagostudier/tasks-app" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></span>
+                    <span slot="list">VueJs, HTML, CSS</span>
                 </card-project>
                 <card-project>
                     <span slot="image"><img src="@/assets/images/sistema-de-selecao.png" /></span>
@@ -161,6 +170,11 @@
         <hr />
         <section-content>
             <h3 class="subtitle">Cursos de extensão</h3>
+            <timeline>
+                <span slot="university">Udemy</span>
+                <span slot="date">04/2021</span>
+                <span slot="course">Curso Vue JS do zero ao avançado na pratica</span>
+            </timeline>            
             <timeline>
                 <span slot="university">Rockeatseat</span>
                 <span slot="date">02/2021</span>
