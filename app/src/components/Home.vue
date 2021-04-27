@@ -121,6 +121,14 @@
                 </card-project>
                 <card-project>
                     <span slot="image"><img src="@/assets/images/sistema-de-selecao.png" /></span>
+                    <span slot="title">PodCastr</span>
+                    <span slot="desc">Este projeto foi desenvolvido no Bootcamp NLW#5 (19/04/2021 - 23/04/2021).<br />O projeto consome uma API (localhost:3333, "/server.json") com os dados dos Podcasts da Rocketseat.<br />Permite que o usuário dê play, pause, ouvir o próximo áudio, o anterior, embaralhar os podcasts e ativar um loop.</span>
+                    <!-- <span slot="link"><a href="https://moveit-five-beta.vercel.app/" target="_blank" rel="noopener noreferrer">Visualizar projeto</a></span> -->
+                    <span slot="link-github"><a href="https://github.com/thiagostudier/nlw-podcastr" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></span>
+                    <span slot="list">React, Next.js, HTML, SCSS</span>
+                </card-project>
+                <card-project>
+                    <span slot="image"><img src="@/assets/images/sistema-de-selecao.png" /></span>
                     <span slot="title">Move It</span>
                     <span slot="desc">O projeto alerta o usuário para fazer um intervalo no seu trabalho e fazer um exercício para o corpo ou para os olhos. Ao realizar essa atividade, o usuário ganha XP.</span>
                     <span slot="link"><a href="https://moveit-five-beta.vercel.app/" target="_blank" rel="noopener noreferrer">Visualizar projeto</a></span>
