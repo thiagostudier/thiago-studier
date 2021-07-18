@@ -61,6 +61,12 @@
                 "list": "VueJs, HTML, CSS"
             },
             {
+                "title": "Refer a friend",
+                "desc": "Project developed to practice my knowledge in building APIs.",
+                "link_github": "https://github.com/thiagostudier/indique-um-amigo",
+                "list": "Laravel, VueJs"
+            },
+            {
                 "title": "Scheduling Meetings",
                 "desc": "Project developed to apply new concepts I learned with Laravel and Vue Js tools and reinforce my knowledge with these technologies.",
                 "link_github": "https://github.com/thiagostudier/agendamento-de-reunioes",
@@ -289,6 +295,12 @@
                 "link": "http://www.thiagostudier.com.br",
                 "link_github": "https://github.com/thiagostudier/thiago-studier",
                 "list": "VueJs, HTML, CSS"
+            },
+            {
+                "title": "Indique um amigo",
+                "desc": "Projeto desenvolvido para praticar meus conhecimentos na construção de APIs.",
+                "link_github": "https://github.com/thiagostudier/indique-um-amigo",
+                "list": "Laravel, VueJs"
             },
             {
                 "title": "Agendamento de Reuniões",
