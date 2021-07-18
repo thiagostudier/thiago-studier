@@ -88,7 +88,7 @@ hr {
     font-family: Roboto Mono,monospace;
     color: var(--color-white);
     opacity: .4;
-    width: 65px;
+    /* width: 65px; */
     display: inline-block;
 }
 

@@ -1,0 +1,462 @@
+{
+    "en": { 
+        "titles": {
+            "role": "fullstack developer",
+            "age": "AGE",
+            "phone": "PHONE",
+            "email": "EMAIL",
+            "education": "EDUCATION",
+            "experience": "EXPERIENCE",
+            "skills": "SKILLS",
+            "projects": "PROJECTS",
+            "courses": "EXTENSION COURSE",
+            "languages": "LANGUAGES"
+        },
+        "educations": [
+            {
+                "id": 1,
+                "university": "Uniritter Canoas",
+                "date": "2016 - 2020",
+                "course": "Technologist in Systems Analysis and Development"
+            },
+            {
+                "id": 2,
+                "university": "QI Escolas e Faculdades",
+                "date": "2015 - 2016",
+                "course": "Computer Technician"
+            },
+            {
+                "id": 3,
+                "university": "La Salle Niterói",
+                "date": "2011 - 2014",
+                "course": "High school"
+            }
+        ],
+        "experiences": [
+            {
+                "id": 1,
+                "company": "Hospital Moinhos de Vento",
+                "date": "desde 10/2020",
+                "role": "Developer II"
+            },
+            { 
+                "id": 2,
+                "company": "Hospital Moinhos de Vento",
+                "date": "05/2018 - 10/2020",
+                "role": "Developer I"
+            },
+            { 
+                "id": 3,
+                "company": "Hospital Moinhos de Vento",
+                "date": "04/2017 - 05/2018",
+                "role": "Intern"
+            }
+        ],
+        "projects": [
+            {
+                "title": "Site | Thiago Studier",
+                "desc": "Portfolio/curriculum project to present my skills, experiences, education...",
+                "link": "http://www.thiagostudier.com.br",
+                "link_github": "https://github.com/thiagostudier/thiago-studier",
+                "list": "VueJs, HTML, CSS"
+            },
+            {
+                "title": "Agendamento de Reuniões",
+                "desc": "Project developed to apply new concepts I learned with Laravel and Vue Js tools and reinforce my knowledge with these technologies.",
+                "link_github": "https://github.com/thiagostudier/agendamento-de-reunioes",
+                "list": "Laravel, VueJs"
+            },
+            {
+                "title": "PodCastr",
+                "desc": "This project was developed at Bootcamp NLW#5. Podcasts are by Rockeseat. The project allows listening to podcasts, pausing, shuffling",
+                "link": "https://podcastr-next-one.vercel.app/",
+                "link_github": "https://github.com/thiagostudier/nlw-podcastr",
+                "list": "React, Next.js, HTML, SCSS"
+            },
+            {
+                "title": "Move It",
+                "desc": "This project was developed at Bootcamp NLW#4. The system prompts the user to take a break from their work and do a body or eye exercise. By performing this activity, the user gains XP.",
+                "link": "https://moveit-five-beta.vercel.app/",
+                "link_github": "https://github.com/thiagostudier/moveit-nlw",
+                "list": "React, Next.js, HTML, CSS"
+            },
+            {
+                "title": "Sistema de seleção",
+                "desc": "Application developed at Hospital Moinhos de Vento.<br />System that allows application administrators to create selections/public notices to attract audiences.",
+                "link": "https://responsabilidadesocial.hospitalmoinhos.org.br/",
+                "list": "Laravel, PHP, HTML, CSS, JS, Bootstrap, JS, MySQL"
+            },
+            {
+                "title": "Cronometro",
+                "desc": "<b>Vue Js Course from Zero to Advanced in Practice</b> Timer Project (Udemy)",
+                "link": "https://chronometer-app.vercel.app/",
+                "link_github": "https://github.com/thiagostudier/chronometer-app",
+                "list": "VueJs, HTML, CSS"
+            },
+            {
+                "title": "Tasks (Minhas Tarefas",
+                "desc": "Project Tasks of the <b>Vue Js Course from zero to advanced in practice</b> (Udemy)",
+                "link": "https://app-tarefas.vercel.app/",
+                "link_github": "https://github.com/thiagostudier/tasks-app",
+                "list": "VueJs, HTML, CSS"
+            },
+            {
+                "title": "Faculdade Moinhos",
+                "desc": "Application developed at Hospital Moinhos de Vento.",
+                "link": "http://faculdademoinhos.com.br/",
+                "list": "PHP, HTML, CSS, JS, Bootstrap, JS, MySQL"
+            },
+            {
+                "title": "Healthcare Alliance",
+                "desc": "Project developed for a company (freelancer). <br />The layout was provided in psd, and the delivery was the html files. <br />Layout adapted to responsive.",
+                "link": "https://healthcare.vercel.app/",
+                "link_github": "https://github.com/thiagostudier/healthcare-alliance",
+                "list": "HTML, CSS, Bootstrap, JS, Jquery"
+            }
+        ],
+        "courses": [
+            {
+                "university": "Rockeatseat",
+                "date": "04/2021",
+                "course": "Next Level Week #5"
+            },
+            {
+                "university": "Udemy",
+                "date": "04/2021",
+                "course": "Vue JS course from zero to advanced in practice"
+            },
+            {
+                "university": "Digital Innovation One Inc.",
+                "date": "03/2021",
+                "course": "Developing your first application with Vue.js"
+            },
+            {
+                "university": "Rockeatseat",
+                "date": "02/2021",
+                "course": "Next Level Week #4"
+            },
+            {
+                "university": "Udemy",
+                "date": "02/2021",
+                "course": "SPA with Vue js and Api with Laravel"
+            },
+            {
+                "university": "School of Net",
+                "date": "01/2021",
+                "course": "Starting with MongoDB"
+            },
+            {
+                "university": "School of Net",
+                "date": "01/2021",
+                "course": "Node with Express.js"
+            },
+            {
+                "university": "School of Net",
+                "date": "01/2021",
+                "course": "Basic Node"
+            },
+            {
+                "university": "School of Net",
+                "date": "04/2020",
+                "course": "Creating a real-time forum with Laravel"
+            },
+            {    
+                "university": "School of Net",
+                "date": "01/2020",
+                "course": "Advanced Javascript"
+            },
+            {
+                "university": "School of Net",
+                "date": "10/2019",
+                "course": "Advanced PHP with OO"
+            },
+            {
+                "university": "School of Net",
+                "date": "10/2019",
+                "course": "Composer"
+            },
+            {
+                "university": "School of Net",
+                "date": "07/2019",
+                "course": "Creating a manageable website with PHP"
+            },
+            {
+                "university": "School of Net",
+                "date": "07/2019",
+                "course": "Moving forward with PHP and MySQL"
+            },
+            {
+                "university": "Udemy",
+                "date": "02/2018",
+                "course": "PHP with Laravel for beginners - Become a Master in Laravel"
+            },
+            {
+                "university": "Udemy",
+                "date": "09/2017",
+                "course": "Complete Web Development Course"
+            }
+        ],
+        "courses_languages": [
+            {
+                "university": "EF English Live",
+                "date": "07/2021",
+                "course": "EF Level 6 Elementary CEFR Level A2"
+            },
+            {
+                "university": "EF English Live",
+                "date": "05/2021",
+                "course": "EF Level 5 Elementary CEFR Level A2"
+            },
+            {
+                "university": "EF English Live",
+                "date": "05/2021",
+                "course": "EF Level 4 Elementary CEFR Level A2"
+            },
+            {
+                "university": "Duoling",
+                "date": "desde 01/2021",
+                "course": "English"
+            },
+            {
+                "university": "Duoling",
+                "date": "desde 01/2021",
+                "course": "French"
+            },
+            {
+                "university": "Lincoln Idiomas",
+                "date": "2013",
+                "course": "Basic English Course"
+            }
+        ]
+    },
+    "pt": {    
+        "titles": {
+                "role": "desenvolvedor fullstack",
+                "age": "IDADE",
+                "phone": "CELULAR",
+                "email": "EMAIL",
+                "education": "EDUCAÇÃO",
+                "experience": "EXPERIÊNCIA",
+                "skills": "SKILLS",
+                "projects": "PROJETOS",
+                "courses": "CURSOS DE EXTENSÃO",
+                "languages": "IDIOMAS"
+        },
+        "educations": [
+            {
+                "id": 1,
+                "university": "Uniritter Canoas",
+                "date": "2016 - 2020",
+                "course": "Tecnólogo em Análise e Desenvolvimento de Sistemas"
+            },
+            {
+                "id": 2,
+                "university": "QI Escolas e Faculdades",
+                "date": "2015 - 2016",
+                "course": "Técnico em Informática"
+            },
+            {
+                "id": 3,
+                "university": "La Salle Niterói",
+                "date": "2011 - 2014",
+                "course": "Ensino médio"
+            }
+        ],
+        "experiences": [
+            {
+                "id": 1,
+                "company": "Hospital Moinhos de Vento",
+                "date": "desde 10/2020",
+                "role": "Desenvolvedor II"
+            },
+            { 
+                "id": 2,
+                "company": "Hospital Moinhos de Vento",
+                "date": "05/2018 - 10/2020",
+                "role": "Desenvolvedor I"
+            },
+            { 
+                "id": 3,
+                "company": "Hospital Moinhos de Vento",
+                "date": "04/2017 - 05/2018",
+                "role": "Estagiário"
+            }
+        ],
+        "projects": [
+            {
+                "title": "Site | Thiago Studier",
+                "desc": "Projeto de portifólio/currículo para apresentar minhas habilidades, experiências, formação e etc.",
+                "link": "http://www.thiagostudier.com.br",
+                "link_github": "https://github.com/thiagostudier/thiago-studier",
+                "list": "VueJs, HTML, CSS"
+            },
+            {
+                "title": "Agendamento de Reuniões",
+                "desc": "Projeto desenvolvido para aplicar novos conceitos que aprendi com as ferramentas Laravel e Vue Js e reforçar meus conhecimentos com essas tecnologias.",
+                "link_github": "https://github.com/thiagostudier/agendamento-de-reunioes",
+                "list": "Laravel, VueJs"
+            },
+            {
+                "title": "PodCastr",
+                "desc": "Este projeto foi desenvolvido no Bootcamp NLW#5. Os podcasts são da Rockeseat. O projeto permite ouvir os podcasts, pausar, embaralhar e etc.",
+                "link": "https://podcastr-next-one.vercel.app/",
+                "link_github": "https://github.com/thiagostudier/nlw-podcastr",
+                "list": "React, Next.js, HTML, SCSS"
+            },
+            {
+                "title": "Move It",
+                "desc": "Este projeto foi desenvolvido no Bootcamp NLW#4. O sistema alerta o usuário para fazer um intervalo no seu trabalho e fazer um exercício para o corpo ou para os olhos. Ao realizar essa atividade, o usuário ganha XP.",
+                "link": "https://moveit-five-beta.vercel.app/",
+                "link_github": "https://github.com/thiagostudier/moveit-nlw",
+                "list": "React, Next.js, HTML, CSS"
+            },
+            {
+                "title": "Sistema de seleção",
+                "desc": "Aplicação desenvolvida no Hospital Moinhos de Vento.<br />Sistema que possibilita aos administradores da aplicação criarem seleções/editais para captação de público.",
+                "link": "https://responsabilidadesocial.hospitalmoinhos.org.br/",
+                "list": "Laravel, PHP, HTML, CSS, JS, Bootstrap, JS, MySQL"
+            },
+            {
+                "title": "Cronometro",
+                "desc": "Projeto de cronometro do <b>Curso Vue Js do zero ao avançado na prática</b> (Udemy)",
+                "link": "https://chronometer-app.vercel.app/",
+                "link_github": "https://github.com/thiagostudier/chronometer-app",
+                "list": "VueJs, HTML, CSS"
+            },
+            {
+                "title": "Tasks (Minhas Tarefas",
+                "desc": "Projeto Tasks do <b>Curso Vue Js do zero ao avançado na prática</b> (Udemy)",
+                "link": "https://app-tarefas.vercel.app/",
+                "link_github": "https://github.com/thiagostudier/tasks-app",
+                "list": "VueJs, HTML, CSS"
+            },
+            {
+                "title": "Faculdade Moinhos",
+                "desc": "Aplicação desenvolvida no Hospital Moinhos de Vento.",
+                "link": "http://faculdademoinhos.com.br/",
+                "list": "PHP, HTML, CSS, JS, Bootstrap, JS, MySQL"
+            },
+            {
+                "title": "Healthcare Alliance",
+                "desc": "Projeto desenvolvido para uma empresa (freelancer). <br />Foi fornecido o layout em psd, e a entrega foram os arquivos em html. <br />Layout adaptado para responsivo.",
+                "link": "https://healthcare.vercel.app/",
+                "link_github": "https://github.com/thiagostudier/healthcare-alliance",
+                "list": "HTML, CSS, Bootstrap, JS, Jquery"
+            }
+        ],
+        "courses": [
+            {
+                "university": "Rockeatseat",
+                "date": "04/2021",
+                "course": "Next Level Week #5"
+            },
+            {
+                "university": "Udemy",
+                "date": "04/2021",
+                "course": "Curso Vue JS do zero ao avançado na pratica"
+            },
+            {
+                "university": "Digital Innovation One Inc.",
+                "date": "03/2021",
+                "course": "Desenvolvendo sua primeira aplicação com Vue.js"
+            },
+            {
+                "university": "Rockeatseat",
+                "date": "02/2021",
+                "course": "Next Level Week #4"
+            },
+            {
+                "university": "Udemy",
+                "date": "02/2021",
+                "course": "SPA com Vue js e Api com Laravel"
+            },
+            {
+                "university": "School of Net",
+                "date": "01/2021",
+                "course": "Iniciando com MongoDB"
+            },
+            {
+                "university": "School of Net",
+                "date": "01/2021",
+                "course": "Node com Express.js"
+            },
+            {
+                "university": "School of Net",
+                "date": "01/2021",
+                "course": "Node básico"
+            },
+            {
+                "university": "School of Net",
+                "date": "04/2020",
+                "course": "Criando um fórum real-time com Laravel"
+            },
+            {    
+                "university": "School of Net",
+                "date": "01/2020",
+                "course": "Javascript avançado"
+            },
+            {
+                "university": "School of Net",
+                "date": "10/2019",
+                "course": "PHP Avançado com OO"
+            },
+            {
+                "university": "School of Net",
+                "date": "10/2019",
+                "course": "Composer"
+            },
+            {
+                "university": "School of Net",
+                "date": "07/2019",
+                "course": "Criando um site administrável com PHP"
+            },
+            {
+                "university": "School of Net",
+                "date": "07/2019",
+                "course": "Avançando com PHP e Mysql"
+            },
+            {
+                "university": "Udemy",
+                "date": "02/2018",
+                "course": "PHP with Laravel for beginners - Become a Master in Laravel"
+            },
+            {
+                "university": "Udemy",
+                "date": "09/2017",
+                "course": "Curso Completo de Desenvolvimento Web"
+            }
+        ],
+        "courses_languages": [
+            {
+                "university": "EF English Live",
+                "date": "07/2021",
+                "course": "EF Level 6 Elementary CEFR Level A2"
+            },
+            {
+                "university": "EF English Live",
+                "date": "05/2021",
+                "course": "EF Level 5 Elementary CEFR Level A2"
+            },
+            {
+                "university": "EF English Live",
+                "date": "05/2021",
+                "course": "EF Level 4 Elementary CEFR Level A2"
+            },
+            {
+                "university": "Duoling",
+                "date": "desde 01/2021",
+                "course": "Inglês"
+            },
+            {
+                "university": "Duoling",
+                "date": "desde 01/2021",
+                "course": "Francês"
+            },
+            {
+                "university": "Lincoln Idiomas",
+                "date": "2013",
+                "course": "Curso Básico de Inglês"
+            }
+        ]
+    }
+}

@@ -1,5 +1,7 @@
 <template>
     <span>   
+        <!-- INPUT DATE -->
+        <input-languages :language="language" :changeLanguage="changeLanguage"></input-languages>
         <!-- HEADER -->
         <header-vue>
             <span slot="image">
@@ -7,18 +9,18 @@
             </span>
             <span slot="principal">
                 <h2>Thiago Studier</h2>
-                <h3>fullstack developer</h3>
+                <h3>{{titles.role}}</h3>
                 <div class="info">
                     <div class="row-info">
-                        <span class="info-title">Age:</span>
+                        <span class="info-title">{{titles.age}}:</span>
                         <span class="info-desc">23</span>
                     </div>
                     <div class="row-info">
-                        <span class="info-title">Phone:</span>
+                        <span class="info-title">{{titles.phone}}:</span>
                         <span class="info-desc">+55 (51) 99236-5609</span>
                     </div>
                     <div class="row-info">
-                        <span class="info-title">EMAIL:</span>
+                        <span class="info-title">{{titles.email}}:</span>
                         <span class="info-desc">thiago.studier9@gmail.com</span>
                     </div>
                 </div>
@@ -37,45 +39,25 @@
             </span>
         </header-vue>
         <section-content>
-            <h3 class="subtitle" style="margin-top: 0px;">Educação</h3>
-            <timeline>
-                <span slot="university">Uniritter Canoas</span>
-                <span slot="date">2016 - 2020</span>
-                <span slot="course">Tecnólogo em Análise e Desenvolvimento de Sistemas</span>
+            <h3 class="subtitle" style="margin-top: 0px;">{{titles.education}}</h3>
+            <timeline v-for="item in educations" :key="item.id">
+                <span slot="university">{{item.university}}</span>
+                <span slot="date">{{item.date}}</span>
+                <span slot="course">{{item.course}}</span>
             </timeline>
-            <timeline>
-                <span slot="university">QI Escolas e Faculdades</span>
-                <span slot="date">2015 - 2016</span>
-                <span slot="course">Técnico em Informática</span>
-            </timeline>
-            <timeline>
-                <span slot="university">La Salle Niterói</span>
-                <span slot="date">2011 - 2014</span>
-                <span slot="course">Ensino médio</span>
-            </timeline>            
         </section-content>
         <hr>
         <section-content>            
-            <h3 class="subtitle">Experiência</h3>
-            <timeline>
-                <span slot="university">Hospital Moinhos de Vento</span>
-                <span slot="date">desde 10/2020</span>
-                <span slot="course">Desenvolvedor II</span>
-            </timeline>
-            <timeline>
-                <span slot="university">Hospital Moinhos de Vento</span>
-                <span slot="date">05/2018 - 10/2020</span>
-                <span slot="course">Desenvolvedor I</span>
-            </timeline>
-            <timeline>
-                <span slot="university">Hospital Moinhos de Vento</span>
-                <span slot="date">04/2017 - 05/2018</span>
-                <span slot="course">Estagiário</span>
+            <h3 class="subtitle">{{titles.experience}}</h3>
+            <timeline v-for="item in experiences" :key="item.id">
+                <span slot="university">{{item.company}}</span>
+                <span slot="date">{{item.date}}</span>
+                <span slot="course">{{item.role}}</span>
             </timeline>
         </section-content>
         <hr />
         <section-content>
-            <h3 class="subtitle">Skills</h3>
+            <h3 class="subtitle">{{titles.skills}}</h3>
             <grid-items columns="7" columns_tablet="4" columns_mobile="2">
                 <skill-item>
                     <img src="@/assets/images/html-css-js.png" />
@@ -109,192 +91,37 @@
         </section-content>
         <hr />
         <section-content>
-            <h3 class="subtitle">Projetos</h3>
+            <h3 class="subtitle">{{titles.projects}}</h3>
             <grid-items columns="3" columns_tablet="2" columns_mobile="1">
-                <card-project>
-                    <span slot="image"><img src="@/assets/images/sistema-de-selecao.png" /></span>
-                    <span slot="title">Site | Thiago Studier</span>
-                    <span slot="desc">Projeto de portifólio/currículo para apresentar minhas habilidades, experiências, formação e etc.</span>
-                    <span slot="link"><a href="http://www.thiagostudier.com.br" target="_blank" rel="noopener noreferrer">Visualizar projeto</a></span>
-                    <span slot="link-github"><a href="https://github.com/thiagostudier/thiago-studier" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></span>
-                    <span slot="list">VueJs, HTML, CSS</span>
-                </card-project>
-                <card-project>
-                    <span slot="image"><img src="@/assets/images/sistema-de-selecao.png" /></span>
-                    <span slot="title">PodCastr</span>
-                    <span slot="desc">Este projeto foi desenvolvido no Bootcamp NLW#5. Os podcasts são da Rockeseat. O projeto permite ouvir os podcasts, pausar, embaralhar e etc.</span>
-                    <span slot="link"><a href="https://podcastr-next-one.vercel.app/" target="_blank" rel="noopener noreferrer">Visualizar projeto</a></span>
-                    <span slot="link-github"><a href="https://github.com/thiagostudier/nlw-podcastr" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></span>
-                    <span slot="list">React, Next.js, HTML, SCSS</span>
-                </card-project>
-                <card-project>
-                    <span slot="image"><img src="@/assets/images/sistema-de-selecao.png" /></span>
-                    <span slot="title">Move It</span>
-                    <span slot="desc">Este projeto foi desenvolvido no Bootcamp NLW#4. O sistema alerta o usuário para fazer um intervalo no seu trabalho e fazer um exercício para o corpo ou para os olhos. Ao realizar essa atividade, o usuário ganha XP.</span>
-                    <span slot="link"><a href="https://moveit-five-beta.vercel.app/" target="_blank" rel="noopener noreferrer">Visualizar projeto</a></span>
-                    <span slot="link-github"><a href="https://github.com/thiagostudier/moveit-nlw" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></span>
-                    <span slot="list">React, Next.js, HTML, CSS</span>
-                </card-project>
-                <card-project>
-                    <span slot="image"><img src="@/assets/images/sistema-de-selecao.png" /></span>
-                    <span slot="title">Sistema de seleção</span>
-                    <span slot="desc">Aplicação desenvolvida no Hospital Moinhos de Vento.<br />Sistema que possibilita aos administradores da aplicação criarem seleções/editais para captação de público.</span>
-                    <span slot="link"><a href="https://responsabilidadesocial.hospitalmoinhos.org.br/" target="_blank" rel="noopener noreferrer">Visualizar projeto</a></span>
-                    <span slot="list">Laravel, PHP, HTML, CSS, JS, Bootstrap, JS, MySQL</span>
-                </card-project>
-                <card-project>
-                    <span slot="image"><img src="@/assets/images/sistema-de-selecao.png" /></span>
-                    <span slot="title">Cronometro</span>
-                    <span slot="desc">Projeto de cronometro do <b>"Curso Vue Js do zero ao avançado na prática"</b> (Udemy)</span>
-                    <span slot="link"><a href="https://chronometer-app.vercel.app/" target="_blank" rel="noopener noreferrer">Visualizar projeto</a></span>
-                    <span slot="link-github"><a href="https://github.com/thiagostudier/chronometer-app" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></span>
-                    <span slot="list">VueJs, HTML, CSS</span>
-                </card-project>
-                <card-project>
-                    <span slot="image"><img src="@/assets/images/sistema-de-selecao.png" /></span>
-                    <span slot="title">Tasks (Minhas Tarefas)</span>
-                    <span slot="desc">Projeto Tasks do <b>"Curso Vue Js do zero ao avançado na prática"</b> (Udemy)</span>
-                    <span slot="link"><a href="https://app-tarefas.vercel.app/" target="_blank" rel="noopener noreferrer">Visualizar projeto</a></span>
-                    <span slot="link-github"><a href="https://github.com/thiagostudier/tasks-app" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></span>
-                    <span slot="list">VueJs, HTML, CSS</span>
-                </card-project>
-                <card-project>
-                    <span slot="image"><img src="@/assets/images/sistema-de-selecao.png" /></span>
-                    <span slot="title">Faculdade Moinhos</span>
-                    <span slot="desc">Aplicação desenvolvida no Hospital Moinhos de Vento.</span>
-                    <span slot="link"><a href="http://faculdademoinhos.com.br/" target="_blank" rel="noopener noreferrer">Visualizar projeto</a></span>
-                    <span slot="list">PHP, HTML, CSS, JS, Bootstrap, JS, MySQL</span>
-                </card-project>
-                <card-project>
-                    <span slot="image"><img src="@/assets/images/sistema-de-selecao.png" /></span>
-                    <span slot="title">Healthcare Alliance</span>
-                    <span slot="desc">Projeto desenvolvido para uma empresa (freelancer). <br />Foi fornecido o layout em psd, e a entrega foram os arquivos em html. <br />Layout adaptado para responsivo.</span>
-                    <span slot="link"><a href="https://healthcare.vercel.app/" target="_blank" rel="noopener noreferrer">Visualizar projeto</a></span>
-                    <span slot="link-github"><a href="https://github.com/thiagostudier/healthcare-alliance" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></span>
-                    <span slot="list">HTML, CSS, Bootstrap, JS, Jquery</span>
+                <card-project v-for="item in projects" :key="item.title">
+                    <span v-if="item.title" slot="title">{{item.title}}</span>
+                    <span v-if="item.desc" slot="desc" v-html="item.desc"></span>
+                    <span v-if="item.link" slot="link"><a :href="item.link" target="_blank" rel="noopener noreferrer">Visualizar projeto</a></span>
+                    <span v-if="item.link_github" slot="link-github"><a :href="item.link_github" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></span>
+                    <span v-if="item.list" slot="list">{{item.list}}</span>
                 </card-project>
             </grid-items>
         </section-content>
         <hr />
         <section-content>
-            <h3 class="subtitle">Cursos de extensão</h3>
-            <timeline>
-                <span slot="university">Rockeatseat</span>
-                <span slot="date">04/2021</span>
-                <span slot="course">Next Level Week #5</span>
-            </timeline>
-            <timeline>
-                <span slot="university">Udemy</span>
-                <span slot="date">04/2021</span>
-                <span slot="course">Curso Vue JS do zero ao avançado na pratica</span>
+            <h3 class="subtitle">{{titles.courses}}</h3>
+            <timeline v-for="item in courses" :key="item.course">
+                <span slot="university">{{item.university}}</span>
+                <span slot="date">{{item.date}}</span>
+                <span slot="course">{{item.course}}</span>
             </timeline>            
-            <timeline>
-                <span slot="university">Rockeatseat</span>
-                <span slot="date">02/2021</span>
-                <span slot="course">Next Level Week #4</span>
-            </timeline>
-            <timeline>
-                <span slot="university">Udemy</span>
-                <span slot="date">02/2021</span>
-                <span slot="course">SPA com Vue js e Api com Laravel</span>
-            </timeline>
-            <timeline>
-                <span slot="university">School of Net</span>
-                <span slot="date">01/2021</span>
-                <span slot="course">Iniciando com MongoDB</span>
-            </timeline>
-            <timeline>
-                <span slot="university">School of Net</span>
-                <span slot="date">01/2021</span>
-                <span slot="course">Node com Express.js</span>
-            </timeline>
-            <timeline>
-                <span slot="university">School of Net</span>
-                <span slot="date">01/2021</span>
-                <span slot="course">Node básico</span>
-            </timeline>
-            <timeline>
-                <span slot="university">School of Net</span>
-                <span slot="date">04/2020</span>
-                <span slot="course">Criando um fórum real-time com Laravel</span>
-            </timeline>
-             <timeline>
-                <span slot="university">School of Net</span>
-                <span slot="date">01/2020</span>
-                <span slot="course">Javascript avançado</span>
-            </timeline>
-            <timeline>
-                <span slot="university">School of Net</span>
-                <span slot="date">10/2019</span>
-                <span slot="course">PHP Avançado com OO</span>
-            </timeline>
-            <timeline>
-                <span slot="university">School of Net</span>
-                <span slot="date">10/2019</span>
-                <span slot="course">Composer</span>
-            </timeline>
-            <timeline>
-                <span slot="university">School of Net</span>
-                <span slot="date">07/2019</span>
-                <span slot="course">Criando um site administrável com PHP</span>
-            </timeline>
-            <timeline>
-                <span slot="university">School of Net</span>
-                <span slot="date">07/2019</span>
-                <span slot="course">Avançando com PHP e Mysql</span>
-            </timeline>
-            <timeline>
-                <span slot="university">Udemy</span>
-                <span slot="date">02/2018</span>
-                <span slot="course">PHP with Laravel for beginners - Become a Master in Laravel</span>
-            </timeline>
-            <timeline>
-                <span slot="university">Udemy</span>
-                <span slot="date">09/2017</span>
-                <span slot="course">Curso Completo de Desenvolvimento Web</span>
-            </timeline>
         </section-content>
         <hr />
         <section-content>
-            <h3 class="subtitle">Idiomas</h3>
-            <grid-items columns="7" columns_mobile="1">
-                <skill-item>
-                    <img src="@/assets/images/portugues.png" />
-                    <span>Português - Nativo</span>
-                </skill-item>
-                <skill-item>
-                    <img src="@/assets/images/ingles.png" />
-                    <span>Inglês - Intermediário</span>
-                </skill-item>
-                <skill-item>
-                    <img src="@/assets/images/frances.png" />
-                    <span>Francês - Em desenvolvimento</span>
-                </skill-item>
-            </grid-items>
-            <br />
-            <timeline>
-                <span slot="university">English Live</span>
-                <span slot="date">desde 03/2021</span>
-                <span slot="course">Curso Básico de Inglês - Básico</span>
-            </timeline>
-            <timeline>
-                <span slot="university">Duoling</span>
-                <span slot="date">desde 01/2021</span>
-                <span slot="course">Inglês</span>
-            </timeline>
-            <timeline>
-                <span slot="university">Duoling</span>
-                <span slot="date">desde 01/2021</span>
-                <span slot="course">Francês</span>
-            </timeline>
-            <timeline>
-                <span slot="university">Lincoln Idiomas</span>
-                <span slot="date">2013</span>
-                <span slot="course">Curso Básico de Inglês</span>
+            <h3 class="subtitle">{{titles.languages}}</h3>
+            <timeline v-for="item in courses_languages" :key="item.course">
+                <span slot="university">{{item.university}}</span>
+                <span slot="date">{{item.date}}</span>
+                <span slot="course">{{item.course}}</span>
             </timeline>
         </section-content>
         <footer-vue>
-            © 2021 • Todos os direitos reservador • Thiago Studier
+            © 2021 • Thiago Studier
         </footer-vue>
     </span>
 </template>
@@ -303,11 +130,13 @@
 
 import HeaderVue from '@/components/includes/HeaderVue';
 import SectionContent from '@/components/includes/SectionContent';
-import Timeline from '@/components/includes/Timeline.vue';
-import SkillItem from '@/components/includes/SkillItem.vue';
-import GridItems from '@/components/includes/GridItems.vue';
-import CardProject from '@/components/includes/CardProject.vue';
-import FooterVue from '@/components/includes/FooterVue.vue';
+import Timeline from '@/components/includes/Timeline';
+import SkillItem from '@/components/includes/SkillItem';
+import GridItems from '@/components/includes/GridItems';
+import CardProject from '@/components/includes/CardProject';
+import FooterVue from '@/components/includes/FooterVue';
+import InputLanguages from '@/components/includes/InputLanguages';
+import { api } from '@/services/api.js';
 
 export default {
     name: 'Home',
@@ -318,15 +147,70 @@ export default {
         SkillItem,
         GridItems,
         CardProject,
-        FooterVue
+        FooterVue,
+        InputLanguages
     },
     data () {
         return {
-      
+            language: localStorage.getItem('language') == 'pt' ? 'pt' : 'en',
+            titles: [],
+            educations: [],
+            experiences: [],
+            projects: [],
+            courses: [],
+            courses_languages: []
+        }
+    },
+    created(){
+        console.log(localStorage.getItem('language'));
+        this.getValues();
+    },
+    methods:{
+        getValues(){
+            // MÉTODO AXIOS - PEGAR INDICAÇÕES
+            api.get(`/static/data.json`)
+            .then(response => {
+                this.titles = response.data[this.language].titles;
+                this.educations = response.data[this.language].educations;
+                this.experiences = response.data[this.language].experiences;
+                this.projects = response.data[this.language].projects;
+                this.courses = response.data[this.language].courses;
+                this.courses_languages = response.data[this.language].courses_languages;
+            })
+            .catch(e => {
+                // NOTIFICAÇÃO
+                console.log('oi');
+            });
+        },
+        changeLanguage(value){
+            this.language = value;
+            localStorage.setItem('language', value);
+            this.getValues();
         }
     }
 }
 </script>
 
 <style scoped>
+
+    #input-languages{
+        background: #fff;
+        border-radius: 3px;
+        width: 100px;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        margin: 5px;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        justify-content: space-between;
+        -webkit-box-shadow: 24px 24px 80px rgb(0 0 0 / 10%);
+        box-shadow: 24px 24px 80px rgb(0 0 0 / 10%);
+    }
+
+    #input-languages span{
+        font-weight: bold;
+    }
+
 </style>
