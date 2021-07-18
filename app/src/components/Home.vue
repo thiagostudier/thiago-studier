@@ -190,27 +190,3 @@ export default {
     }
 }
 </script>
-
-<style scoped>
-
-    #input-languages{
-        background: #fff;
-        border-radius: 3px;
-        width: 100px;
-        position: fixed;
-        top: 0px;
-        right: 0px;
-        margin: 5px;
-        display: flex;
-        align-items: center;
-        padding: 5px;
-        justify-content: space-between;
-        -webkit-box-shadow: 24px 24px 80px rgb(0 0 0 / 10%);
-        box-shadow: 24px 24px 80px rgb(0 0 0 / 10%);
-    }
-
-    #input-languages span{
-        font-weight: bold;
-    }
-
-</style>
