@@ -10,7 +10,8 @@
             "skills": "SKILLS",
             "projects": "PROJECTS",
             "courses": "EXTENSION COURSE",
-            "languages": "LANGUAGES"
+            "languages": "LANGUAGES",
+            "view_projects": "View project"
         },
         "educations": [
             {
@@ -59,6 +60,12 @@
                 "link": "http://www.thiagostudier.com.br",
                 "link_github": "https://github.com/thiagostudier/thiago-studier",
                 "list": "VueJs, HTML, CSS"
+            },
+            {
+                "title": "Refer a friend",
+                "desc": "Project developed to practice my knowledge in building APIs.",
+                "link_github": "https://github.com/thiagostudier/indique-um-amigo",
+                "list": "Laravel, VueJs"
             },
             {
                 "title": "Scheduling Meetings",
@@ -240,7 +247,8 @@
                 "skills": "SKILLS",
                 "projects": "PROJETOS",
                 "courses": "CURSOS DE EXTENSÃO",
-                "languages": "IDIOMAS"
+                "languages": "IDIOMAS",
+                "view_projects": "Visualizar Projeto"
         },
         "educations": [
             {
@@ -289,6 +297,12 @@
                 "link": "http://www.thiagostudier.com.br",
                 "link_github": "https://github.com/thiagostudier/thiago-studier",
                 "list": "VueJs, HTML, CSS"
+            },
+            {
+                "title": "Indique um amigo",
+                "desc": "Projeto desenvolvido para praticar meus conhecimentos na construção de APIs.",
+                "link_github": "https://github.com/thiagostudier/indique-um-amigo",
+                "list": "Laravel, VueJs"
             },
             {
                 "title": "Agendamento de Reuniões",
