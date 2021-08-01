@@ -100,7 +100,7 @@
                 <card-project v-for="item in projects" :key="item.title">
                     <span v-if="item.title" slot="title">{{item.title}}</span>
                     <span v-if="item.desc" slot="desc" v-html="item.desc"></span>
-                    <span v-if="item.link" slot="link"><a :href="item.link" target="_blank" rel="noopener noreferrer">Visualizar projeto</a></span>
+                    <span v-if="item.link" slot="link"><a :href="item.link" target="_blank" rel="noopener noreferrer">{{titles.view_projects}}</a></span>
                     <span v-if="item.link_github" slot="link-github"><a :href="item.link_github" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></span>
                     <span v-if="item.list" slot="list">{{item.list}}</span>
                 </card-project>

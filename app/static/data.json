@@ -10,7 +10,8 @@
             "skills": "SKILLS",
             "projects": "PROJECTS",
             "courses": "EXTENSION COURSE",
-            "languages": "LANGUAGES"
+            "languages": "LANGUAGES",
+            "view_projects": "View project"
         },
         "educations": [
             {
@@ -251,7 +252,8 @@
                 "skills": "SKILLS",
                 "projects": "PROJETOS",
                 "courses": "CURSOS DE EXTENSÃO",
-                "languages": "IDIOMAS"
+                "languages": "IDIOMAS",
+                "view_projects": "Visualizar Projeto"
         },
         "educations": [
             {
