@@ -58,7 +58,7 @@
         <hr />
         <section-content>
             <h3 class="subtitle">{{titles.skills}}</h3>
-            <grid-items columns="7" columns_tablet="4" columns_mobile="2">
+            <grid-items columns="8" columns_tablet="4" columns_mobile="2">
                 <skill-item>
                     <img src="@/assets/images/html-css-js.png" />
                     <span>HTML5, CSS3 e JS</span>
@@ -86,6 +86,10 @@
                 <skill-item>
                     <img src="@/assets/images/git.png" />
                     <span>Git</span>
+                </skill-item>
+                <skill-item>
+                    <img src="@/assets/images/graphql.png" />
+                    <span>GraphQL</span>
                 </skill-item>
             </grid-items>
         </section-content>

@@ -122,6 +122,11 @@
         ],
         "courses": [
             {
+                "university": "Udemy",
+                "date": "07/2021",
+                "course": "GraphQL: Creating Professional and Flexible APIs"
+            },
+            {
                 "university": "Rockeatseat",
                 "date": "04/2021",
                 "course": "Next Level Week #5"
@@ -357,6 +362,11 @@
             }
         ],
         "courses": [
+            {
+                "university": "Udemy",
+                "date": "07/2021",
+                "course": "GraphQL: Criando APIs Profissionais e Flexíveis"
+            },
             {
                 "university": "Rockeatseat",
                 "date": "04/2021",

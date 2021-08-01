@@ -61,6 +61,12 @@
                 "list": "VueJs, HTML, CSS"
             },
             {
+                "title": "Refer a friend",
+                "desc": "Project developed to practice my knowledge in building APIs.",
+                "link_github": "https://github.com/thiagostudier/indique-um-amigo",
+                "list": "Laravel, VueJs"
+            },
+            {
                 "title": "Scheduling Meetings",
                 "desc": "Project developed to apply new concepts I learned with Laravel and Vue Js tools and reinforce my knowledge with these technologies.",
                 "link_github": "https://github.com/thiagostudier/agendamento-de-reunioes",
@@ -115,6 +121,11 @@
             }
         ],
         "courses": [
+            {
+                "university": "Udemy",
+                "date": "07/2021",
+                "course": "GraphQL: Creating Professional and Flexible APIs"
+            },
             {
                 "university": "Rockeatseat",
                 "date": "04/2021",
@@ -291,6 +302,12 @@
                 "list": "VueJs, HTML, CSS"
             },
             {
+                "title": "Indique um amigo",
+                "desc": "Projeto desenvolvido para praticar meus conhecimentos na construção de APIs.",
+                "link_github": "https://github.com/thiagostudier/indique-um-amigo",
+                "list": "Laravel, VueJs"
+            },
+            {
                 "title": "Agendamento de Reuniões",
                 "desc": "Projeto desenvolvido para aplicar novos conceitos que aprendi com as ferramentas Laravel e Vue Js e reforçar meus conhecimentos com essas tecnologias.",
                 "link_github": "https://github.com/thiagostudier/agendamento-de-reunioes",
@@ -345,6 +362,11 @@
             }
         ],
         "courses": [
+            {
+                "university": "Udemy",
+                "date": "07/2021",
+                "course": "GraphQL: Criando APIs Profissionais e Flexíveis"
+            },
             {
                 "university": "Rockeatseat",
                 "date": "04/2021",
