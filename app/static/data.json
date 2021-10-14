@@ -1,5 +1,5 @@
 {
-    "en": { 
+    "en": {
         "titles": {
             "role": "fullstack developer",
             "age": "AGE",
@@ -35,22 +35,28 @@
         ],
         "experiences": [
             {
-                "id": 1,
-                "company": "Hospital Moinhos de Vento",
-                "date": "desde 10/2020",
-                "role": "Developer II"
+              "id": 4,
+              "company": "ACCT",
+              "date": "desde 10/2021",
+              "role": "Middle Developer"
             },
-            { 
-                "id": 2,
-                "company": "Hospital Moinhos de Vento",
-                "date": "05/2018 - 10/2020",
-                "role": "Developer I"
+            {
+              "id": 1,
+              "company": "Hospital Moinhos de Vento",
+              "date": "desde 10/2020",
+              "role": "Developer II"
             },
-            { 
-                "id": 3,
-                "company": "Hospital Moinhos de Vento",
-                "date": "04/2017 - 05/2018",
-                "role": "Intern"
+            {
+              "id": 2,
+              "company": "Hospital Moinhos de Vento",
+              "date": "05/2018 - 10/2020",
+              "role": "Developer I"
+            },
+            {
+              "id": 3,
+              "company": "Hospital Moinhos de Vento",
+              "date": "04/2017 - 05/2018",
+              "role": "Intern"
             }
         ],
         "projects": [
@@ -62,10 +68,16 @@
                 "list": "VueJs, HTML, CSS"
             },
             {
-                "title": "NLW#6 NodeJs",
-                "desc": "This project was developed at Bootcamp NLW#6 of NodeJs. The project allows the registration of Users, Tags and the link between the two entities.",
-                "link_github": "https://github.com/thiagostudier/nlw6-nodejs",
-                "list": "NodeJs"
+              "title": "Node.jS tests applying TDD with Jest",
+              "desc": "Project of a Rocketseat video class, creating an authentication function with Node.jS and TSS concepts with Jest.",
+              "link_github": "https://github.com/thiagostudier/node.js-tdd",
+              "list": "Node.js"
+            },
+            {
+                "title": "NLW#6 Node.js",
+                "desc": "This project was developed at Bootcamp NLW#6 of Node.js. The project allows the registration of Users, Tags and the link between the two entities.",
+                "link_github": "https://github.com/thiagostudier/nlw6-node.js",
+                "list": "Node.js"
             },
             {
                 "title": "Refer a friend",
@@ -123,9 +135,14 @@
         ],
         "courses": [
             {
+              "university": "Udemy",
+              "date": "10/2021",
+              "course": "Python Data Structure and Algorithms: The Complete Guide"
+            },
+            {
                 "university": "Rockeatseat",
                 "date": "08/2021",
-                "course": "Next Level Week #6 - NodeJS"
+                "course": "Next Level Week #6 - Node.jS"
             },
             {
                 "university": "Udemy",
@@ -177,7 +194,7 @@
                 "date": "04/2020",
                 "course": "Creating a real-time forum with Laravel"
             },
-            {    
+            {
                 "university": "School of Net",
                 "date": "01/2020",
                 "course": "Advanced Javascript"
@@ -246,7 +263,7 @@
             }
         ]
     },
-    "pt": {    
+    "pt": {
         "titles": {
                 "role": "desenvolvedor fullstack",
                 "age": "IDADE",
@@ -282,18 +299,24 @@
         ],
         "experiences": [
             {
+              "id": 1,
+              "company": "ACCT",
+              "date": "desde 10/2021",
+              "role": "Desenvolvedor Pleno"
+            },
+            {
                 "id": 1,
                 "company": "Hospital Moinhos de Vento",
                 "date": "desde 10/2020",
                 "role": "Desenvolvedor II"
             },
-            { 
+            {
                 "id": 2,
                 "company": "Hospital Moinhos de Vento",
                 "date": "05/2018 - 10/2020",
                 "role": "Desenvolvedor I"
             },
-            { 
+            {
                 "id": 3,
                 "company": "Hospital Moinhos de Vento",
                 "date": "04/2017 - 05/2018",
@@ -309,10 +332,16 @@
                 "list": "VueJs, HTML, CSS"
             },
             {
-                "title": "NLW#6 NodeJs",
-                "desc": "Este projeto foi desenvolvido no Bootcamp NLW#6 de NodeJs. O projeto permite o cadastro de Usuários, Tags e o vínculo entre as duas entidades.",
-                "link_github": "https://github.com/thiagostudier/nlw6-nodejs",
-                "list": "NodeJs"
+              "title": "Testes no Node.jS aplicando TDD com Jest",
+              "desc": "Projeto de uma vídeo aula da Rocketseat, criando um função de autenticação com Node.jS e conceitos de TSS com Jest.",
+              "link_github": "https://github.com/thiagostudier/node.js-tdd",
+              "list": "Node.js"
+            },
+            {
+                "title": "NLW#6 Node.js",
+                "desc": "Este projeto foi desenvolvido no Bootcamp NLW#6 de Node.js. O projeto permite o cadastro de Usuários, Tags e o vínculo entre as duas entidades.",
+                "link_github": "https://github.com/thiagostudier/nlw6-node.js",
+                "list": "Node.js"
             },
             {
                 "title": "Indique um amigo",
@@ -370,9 +399,14 @@
         ],
         "courses": [
             {
+              "university": "Udemy",
+              "date": "10/2021",
+              "course": "Estrutura de Dados e Algoritmos em Python: O Guia Completo"
+            },
+            {
                 "university": "Rockeatseat",
                 "date": "08/2021",
-                "course": "Next Level Week #6 - NodeJS"
+                "course": "Next Level Week #6 - Node.jS"
             },
             {
                 "university": "Udemy",
@@ -424,7 +458,7 @@
                 "date": "04/2020",
                 "course": "Criando um fórum real-time com Laravel"
             },
-            {    
+            {
                 "university": "School of Net",
                 "date": "01/2020",
                 "course": "Javascript avançado"
