@@ -35,15 +35,21 @@
         ],
         "experiences": [
             {
+                "id": 5,
+                "company": "Pmweb",
+                "date": "since 11/2021",
+                "role": "FrontEnd Programming Analyst"
+            },
+            {
               "id": 4,
               "company": "ACCT",
-              "date": "desde 10/2021",
+              "date": "10/2021 - 11/2021",
               "role": "Middle Developer"
             },
             {
               "id": 1,
               "company": "Hospital Moinhos de Vento",
-              "date": "desde 10/2020",
+              "date": "10/2020 - 10/2021",
               "role": "Developer II"
             },
             {
@@ -233,6 +239,16 @@
         "courses_languages": [
             {
                 "university": "EF English Live",
+                "date": "11/2021",
+                "course": "EF Level 8 Intermediate CEFR Level B1"
+            },
+            {
+                "university": "EF English Live",
+                "date": "09/2021",
+                "course": "EF Level 7 Intermediate CEFR Level B1"
+            },
+            {
+                "university": "EF English Live",
                 "date": "07/2021",
                 "course": "EF Level 6 Elementary CEFR Level A2"
             },
@@ -299,25 +315,31 @@
         ],
         "experiences": [
             {
-              "id": 1,
+                "id": 1,
+                "company": "Pmweb",
+                "date": "desde 11/2021",
+                "role": "Analista de Programação Frontend"
+            },
+            {
+              "id": 2,
               "company": "ACCT",
-              "date": "desde 10/2021",
+              "date": "10/2021 - 11/2021",
               "role": "Desenvolvedor Pleno"
             },
             {
-                "id": 1,
+                "id": 3,
                 "company": "Hospital Moinhos de Vento",
-                "date": "desde 10/2020",
+                "date": "10/2020 - 10/2021",
                 "role": "Desenvolvedor II"
             },
             {
-                "id": 2,
+                "id": 4,
                 "company": "Hospital Moinhos de Vento",
                 "date": "05/2018 - 10/2020",
                 "role": "Desenvolvedor I"
             },
             {
-                "id": 3,
+                "id": 5,
                 "company": "Hospital Moinhos de Vento",
                 "date": "04/2017 - 05/2018",
                 "role": "Estagiário"
@@ -495,6 +517,16 @@
             }
         ],
         "courses_languages": [
+            {
+                "university": "EF English Live",
+                "date": "11/2021",
+                "course": "EF Level 8 Intermediate CEFR Level B1"
+            },
+            {
+                "university": "EF English Live",
+                "date": "09/2021",
+                "course": "EF Level 7 Intermediate CEFR Level B1"
+            },
             {
                 "university": "EF English Live",
                 "date": "07/2021",
