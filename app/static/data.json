@@ -233,6 +233,21 @@
         "courses_languages": [
             {
                 "university": "EF English Live",
+                "date": "04/2022",
+                "course": "EF Level 12 Upper Intermediate CEFR Level B2"
+            },
+            {
+                "university": "EF English Live",
+                "date": "02/2022",
+                "course": "EF Level 11 Upper Intermediate CEFR Level B2"
+            },
+            {
+                "university": "EF English Live",
+                "date": "01/2022",
+                "course": "EF Level 10 Upper Intermediate CEFR Level B2"
+            },
+            {
+                "university": "EF English Live",
                 "date": "11/2021",
                 "course": "EF Level 9 Intermediate CEFR Level B1"
             },
@@ -516,6 +531,21 @@
             }
         ],
         "courses_languages": [
+            {
+                "university": "EF English Live",
+                "date": "04/2022",
+                "course": "EF Level 12 Upper Intermediate CEFR Level B2"
+            },
+            {
+                "university": "EF English Live",
+                "date": "02/2022",
+                "course": "EF Level 11 Upper Intermediate CEFR Level B2"
+            },
+            {
+                "university": "EF English Live",
+                "date": "01/2022",
+                "course": "EF Level 10 Upper Intermediate CEFR Level B2"
+            },
             {
                 "university": "EF English Live",
                 "date": "11/2021",
