@@ -68,15 +68,21 @@
                 "list": "VueJs, HTML, CSS"
             },
             {
+                "title": "Authentication and Testing with Nodejs",
+                "desc": "User CRUD with authentication and testing with jest",
+                "link_github": "https://github.com/thiagostudier/nodejs-auth",
+                "list": "Node.js, Jest"
+              },
+            {
               "title": "Node.jS tests applying TDD with Jest",
               "desc": "Project of a Rocketseat video class, creating an authentication function with Node.jS and TSS concepts with Jest.",
-              "link_github": "https://github.com/thiagostudier/node.js-tdd",
+              "link_github": "https://github.com/thiagostudier/nodejs-tdd",
               "list": "Node.js"
             },
             {
                 "title": "NLW#6 Node.js",
                 "desc": "This project was developed at Bootcamp NLW#6 of Node.js. The project allows the registration of Users, Tags and the link between the two entities.",
-                "link_github": "https://github.com/thiagostudier/nlw6-node.js",
+                "link_github": "https://github.com/thiagostudier/nlw6-nodejs",
                 "list": "Node.js"
             },
             {
@@ -233,6 +239,21 @@
         "courses_languages": [
             {
                 "university": "EF English Live",
+                "date": "04/2022",
+                "course": "EF Level 12 Upper Intermediate CEFR Level B2"
+            },
+            {
+                "university": "EF English Live",
+                "date": "02/2022",
+                "course": "EF Level 11 Upper Intermediate CEFR Level B2"
+            },
+            {
+                "university": "EF English Live",
+                "date": "01/2022",
+                "course": "EF Level 10 Upper Intermediate CEFR Level B2"
+            },
+            {
+                "university": "EF English Live",
                 "date": "11/2021",
                 "course": "EF Level 9 Intermediate CEFR Level B1"
             },
@@ -353,15 +374,21 @@
                 "list": "VueJs, HTML, CSS"
             },
             {
+              "title": "Autenticação e Testes com Nodejs",
+              "desc": "CRUD de usuários com autenticação e testes com jest",
+              "link_github": "https://github.com/thiagostudier/nodejs-auth",
+              "list": "Node.js, Jest"
+            },
+            {
               "title": "Testes no Node.jS aplicando TDD com Jest",
               "desc": "Projeto de uma vídeo aula da Rocketseat, criando um função de autenticação com Node.jS e conceitos de TSS com Jest.",
-              "link_github": "https://github.com/thiagostudier/node.js-tdd",
-              "list": "Node.js"
+              "link_github": "https://github.com/thiagostudier/nodejs-tdd",
+              "list": "Node.js, Jest"
             },
             {
                 "title": "NLW#6 Node.js",
                 "desc": "Este projeto foi desenvolvido no Bootcamp NLW#6 de Node.js. O projeto permite o cadastro de Usuários, Tags e o vínculo entre as duas entidades.",
-                "link_github": "https://github.com/thiagostudier/nlw6-node.js",
+                "link_github": "https://github.com/thiagostudier/nlw6-nodejs",
                 "list": "Node.js"
             },
             {
@@ -516,6 +543,21 @@
             }
         ],
         "courses_languages": [
+            {
+                "university": "EF English Live",
+                "date": "04/2022",
+                "course": "EF Level 12 Upper Intermediate CEFR Level B2"
+            },
+            {
+                "university": "EF English Live",
+                "date": "02/2022",
+                "course": "EF Level 11 Upper Intermediate CEFR Level B2"
+            },
+            {
+                "university": "EF English Live",
+                "date": "01/2022",
+                "course": "EF Level 10 Upper Intermediate CEFR Level B2"
+            },
             {
                 "university": "EF English Live",
                 "date": "11/2021",
